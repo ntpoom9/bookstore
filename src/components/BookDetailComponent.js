@@ -37,7 +37,7 @@ export default function BookDetailComponent({ isbn }) {
             <span className="book_detail">{book.status}</span>
             <br />
             <b className="book_topic">authors : </b>
-            <span className="book_detail">{book.authors.join(", ")}</span>
+            <span className="book_detail">{book.authors}</span>
             <br />
             <b className="book_topic">categories : </b>
             <span className="book_detail">{book.categories}</span>

@@ -31,7 +31,7 @@ export default function BookComponent({ result }) {
 
                 <div className="instagram-card-content">
                   <b>authors : </b>
-                  <span>{post.authors.join(", ")}</span>
+                  <span>{post.authors}</span>
                   <br />
                   <b>isbn : </b>
                   <a href={"/" + post.isbn} target="_blank">
