@@ -1,7 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #fafafa;
   /* font-family: "Changa"; */
 }
 .navMargin {
   margin-top: 2rem;
+}
+.book_img {
+  height: 70%;
+}
+#colImg {
+  margin: 0, auto;
+  margin-top: 5rem;
+
+  text-align: center;
+}
+.book_topic {
+  font-size: 20px;
+}
+.book_detail {
+  font-size: 20px;
+}
+#info {
 }

@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import PostComponent from "./PostComponent";
+import BookComponent from "./BookComponent";
 import "../css/SearchComponent.css";
 
 export default function SearchComponent() {
@@ -34,7 +34,7 @@ export default function SearchComponent() {
         />
       </div>
 
-      <PostComponent result={result} />
+      <BookComponent result={result} />
     </div>
   );
 }

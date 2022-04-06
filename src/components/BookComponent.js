@@ -1,14 +1,11 @@
 import React from "react";
-import { FaRegComment, FaRegHeart } from "react-icons/fa";
-import { FiSend } from "react-icons/fi";
-import "../css/Post.css";
+import "../css/Book.css";
 
-// import "../css/font.css";
-export default function PostComponent({ result }) {
+export default function BookComponent({ result }) {
   return (
     <div>
       <ul className="grid">
-        {result.map((post) => {
+        {result.slice(0, 30).map((post) => {
           return (
             <li>
               {/* <figure className="grid__figure"> */}
@@ -34,7 +31,7 @@ export default function PostComponent({ result }) {
 
                 <div className="instagram-card-content">
                   <b>authors : </b>
-                  <span>{post.authors}</span>
+                  <span>{post.authors.join(", ")}</span>
                   <br />
                   <b>isbn : </b>
                   <a href={"/" + post.isbn} target="_blank">

@@ -10,7 +10,7 @@ export default function Menu() {
     <>
       <Navbar className="navbar navbar-expand-md  fixed-top " expand="md">
         <NavbarBrand className="NavbarBrand" href="/">
-          Unstagram
+          Book store
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
