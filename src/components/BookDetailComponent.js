@@ -31,7 +31,7 @@ export default function BookDetailComponent({ isbn }) {
             <span className="book_detail">{book.isbn}</span>
             <br />
             <b className="book_topic">pageCount : </b>
-            <span className="book_detail">{book.pageCount}</span>
+            <span className="book_detail">{book.pageCount} pages</span>
             <br />
             <b className="book_topic">status : </b>
             <span className="book_detail">{book.status}</span>
